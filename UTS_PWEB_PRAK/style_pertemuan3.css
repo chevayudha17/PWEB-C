@@ -56,9 +56,9 @@ li a:hover {
 .box{
   width: 80%;
   margin: 10% auto 5% auto;
-  height: autp;
+  height: auto;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-around;
 }
 .box .box-item{
