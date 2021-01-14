@@ -91,3 +91,51 @@ li a:hover {
     width : 98%;
   }
 }
+@media only screen and (max-width: 1024px)
+{
+  .box .box-item{
+    width : 75%;
+  }
+}
+@media only screen and (max-width: 720px)
+{
+  .box .box-item{
+    width : 98%;
+  }
+}
+@media only screen and (max-width: 1024px)
+{
+  .box .box-item:hover img{
+    width : 75%;
+  }
+}
+@media only screen and (max-width: 720px)
+{
+  .box .box-item:hover img{
+    width : 98%;
+  }
+}
+@media only screen and (max-width: 1024px)
+{
+  .box .box-item img{
+    width : 75%;
+  }
+}
+@media only screen and (max-width: 720px)
+{
+  .box .box-item img{
+    width : 98%;
+  }
+}
+@media only screen and (max-width: 1024px)
+{
+  .box .box-item a{
+    width : 75%;
+  }
+}
+@media only screen and (max-width: 720px)
+{
+  .box .box-item a{
+    width : 98%;
+  }
+}
