@@ -79,3 +79,15 @@ li a:hover {
   text-decoration: none;
   color: black;
 }
+@media only screen and (max-width: 1024px)
+{
+  .box{
+    width : 75%;
+  }
+}
+@media only screen and (max-width: 720px)
+{
+  .box{
+    width : 98%;
+  }
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-image: url("img/WhatsApp\ Image\ 2020-11-12\ at\ 09.55.57.jpeg");
+  background-size: cover;
+}
+.body-background{
+  color: rgba(255, 255, 255, 0.26);
+
+}
+.nav{
+  margin-top: 3%; 
+  background-color: rgb(42, 77, 42);
+}
+.nav li a{
+  margin: 20px 15px ;
+  color: rgb(118, 194, 108);
+}
+.container{
+  max-width: 1200px;
+  margin-left:  auto;
+  margin-right:  auto;
+  font-size: 35px;
+  text-align: center; 
+}
+li  {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color:  rgb(118, 194, 108);
+}
+
+li a:hover {
+  background-color: rgba(128, 128, 128, 0.568);
+  color: white;
+  border-radius: 10px;
+  
+}
+.form{
+    margin: auto;
+    width: 40%;
+    border-color:rgba(0, 0, 0, 0);
+    align-items: center;
+}
+.form h1{
+    color: brown;
+    font-size: 250%;
+}
+.form p{
+    font-size: 100%;
+    color: rgb(160, 13, 13);
+}
+input[type=text], input[type=password], input[type=number] {
+    margin: 1% auto;
+    width: 100%;
+    padding: 2%;
+    align-items: center;
+}
+.daftar button {
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: px;
+    background-color: rgb(160, 13, 13);
+    text-decoration: none;
+}
+.daftar a{
+    color: white;
+    font-size: 1vw;
+    text-decoration: none;
+}
+.daftar :hover{
+    transform: scale(1.2);
+}

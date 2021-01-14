@@ -9,7 +9,7 @@
         <div class="container">
             <li>
                 <div>
-                    <b><a href="nav.html">HOME</a></b>
+                    <b><a href="index.html">HOME</a></b>
                     <b><a href="contact.html">CONTACT</a></b>
                     <b><a href="about.html">ABOUT</a></b>
                     <b><a href="review.html">REVIEW</a></b>
@@ -42,9 +42,19 @@
                     <td><input type="password" id="confirmpassword"></td> 
                 </tr>
                 <tr>
-                    <td colspan="2"><button type="submit">Submit</button></td>
+                    <td colspan="2"><button onclick="runPopup()">submit
+            </button>
+            <script> 
+            function runPopup(){
+              window.alert("data behasil disimpan !");
+            };
+          </script></td>
                 </tr>
             </table>
         </form>
+        <div class="login">
+            <a>Sudah punya akun?</a>  
+            <a href="login.html" >Login</a>   
+        </div>
     </div>
 </body>

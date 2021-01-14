@@ -7,29 +7,94 @@
     <link rel="stylesheet" href="style_pertemuan3.css">
 </head>
 <body>
+    <audio id="myAudio">
+  <source src="Ardhito Pramono - Sudah (Story of Kale - Original Motion Picture Soundtrack).mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p>klik tombol untuk play atau pause musik.</p>
+
+<button onclick="playAudio()" type="button">Play Musik</button>
+<button onclick="pauseAudio()" type="button">Pause musik</button> 
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
     <div class="judul">
         <b><p>Pak Dhe Florist</p></b>
     </div>
     <div class="box">
         <div class="box-item">
             <a href="">
+                <button onclick="runPopup()">
                 <img src="img/1.jpg.jpg" alt="">
+                </button>
+                <script>  
+                function runPopup(){
+                var respond = prompt("Masukkan alamat pengiriman");
+                if(respond != "")
+                {
+                    window.alert(" paket segera dikirim ke alamat " + respond + "!");
+                }
+                else
+                {
+                    window.alert("masukkan kembaii alamat pengiriman");
+                };
+                </script>
                 <h1>Bucket Mawar Merah</h1>
                 <p>50.000</p>
             </a>          
         </div>
         <div class="box-item">
             <a href="">
+                <button onclick="runPopup()">
                 <img src="img/2.jpg.jpg" alt="">
+                </button>
+                <script>  
+                function runPopup(){
+                var respond = prompt("Masukkan alamat pengiriman");
+                if(respond != "")
+                {
+                    window.alert(" paket segera dikirim ke alamat " + respond + "!");
+                }
+                else
+                {
+                    window.alert("masukkan kembaii alamat pengiriman");
+                }
+                };
+                </script>
                 <h1>Bucket Mawar</h1>
                 <p>100.000</p>
             </a>   
         </div>
         <div class="box-item">
             <a href="">
-                <img src="img/2.jpg.jpg" alt="">
-                <h1>Bucket bunga</h1>
-                <p>150.000</p>
+            <button onclick="runPopup()">
+                <img src="img/anne.jpg" alt="">
+                </button>
+                <script>  
+                function runPopup(){
+                var respond = prompt("Masukkan alamat pengiriman");
+                if(respond != "")
+                {
+                    window.alert(" paket segera dikirim ke alamat " + respond + "!");
+                }
+                else
+                {
+                    window.alert("masukkan kembaii alamat pengiriman");
+                }
+                };
+                </script>
+                <h1>Bunga Anne</h1>
+                <p>250.000</p>
             </a>   
         </div>
     </div>
@@ -49,44 +114,135 @@
     <div class="box">
         <div class="box-item">
             <a href="">
-                <img src="img/1.jpg.jpg" alt="">
-                <h1>Bucket Mawar Merah</h1>
+                <button onclick="runPopup()">
+                <img src="img/mawar flanel.jpg" alt="">
+                </button>
+                <script>  
+                function runPopup(){
+                var respond = prompt("Masukkan alamat pengiriman");
+                if(respond != "")
+                {
+                    window.alert(" paket segera dikirim ke alamat " + respond + "!");
+                }
+                else
+                {
+                    window.alert("masukkan kembaii alamat pengiriman");
+                }
+                };
+                </script>
+                <h1>Mawar Flanel</h1>
                 <p>50.000</p>
+               
             </a>          
         </div>
         <div class="box-item">
             <a href="">
-                <img src="img/2.jpg.jpg" alt="">
-                <h1>Bucket Mawar</h1>
-                <p>100.000</p>
+               <button onclick="runPopup()">
+                <img src="img/buket wisuda.jpg" alt="">
+                </button>
+                <script>  
+                function runPopup(){
+                var respond = prompt("Masukkan alamat pengiriman");
+                if(respond != "")
+                {
+                    window.alert(" paket segera dikirim ke alamat " + respond + "!");
+                }
+                else
+                {
+                    window.alert("masukkan kembaii alamat pengiriman");
+                }
+                };
+                </script>
+                <h1>Buket Wisuda</h1>
+                <p>50.000</p>
             </a>   
         </div>
         <div class="box-item">
             <a href="">
-                <img src="img/2.jpg.jpg" alt="">
-                <h1>Bucket bunga</h1>
-                <p>150.000</p>
+                <button onclick="runPopup()">
+                <img src="img/mawar pink.jpg" alt="">
+                </button>
+                <script>  
+                function runPopup(){
+                var respond = prompt("Masukkan alamat pengiriman");
+                if(respond != "")
+                {
+                    window.alert(" paket segera dikirim ke alamat " + respond + "!");
+                }
+                else
+                {
+                    window.alert("masukkan kembaii alamat pengiriman");
+                }
+                };
+                </script>
+                <h1>Mawar Pink</h1>
+                <p>170.000</p>
             </a>   
         </div>
     </div>
     <div class="box">
         <div class="box-item">
             <a href="">
-                <img src="img/1.jpg.jpg" alt="">
-                <h1>Bucket Mawar Merah</h1>
-                <p>50.000</p>
+                 <button onclick="runPopup()">
+                <img src="img/scarlet.jpg" alt="">
+                </button>
+                <script>  
+                function runPopup(){
+                var respond = prompt("Masukkan alamat pengiriman");
+                if(respond != "")
+                {
+                    window.alert(" paket segera dikirim ke alamat " + respond + "!");
+                }
+                else
+                {
+                    window.alert("masukkan kembaii alamat pengiriman");
+                }
+                };
+                </script>
+                <h1>Bucket Scarlet</h1>
+                <p>300.000</p>
             </a>          
         </div>
         <div class="box-item">
             <a href="">
-                <img src="img/2.jpg.jpg" alt="">
+                <button onclick="runPopup()">
+                <img src="img/4.jpg" alt="">
+                </button>
+                <script>  
+                function runPopup(){
+                var respond = prompt("Masukkan alamat pengiriman");
+                if(respond != "")
+                {
+                    window.alert(" paket segera dikirim ke alamat " + respond + "!");
+                }
+                else
+                {
+                    window.alert("masukkan kembaii alamat pengiriman");
+                }
+                };
+                </script>
                 <h1>Bucket Mawar</h1>
                 <p>100.000</p>
             </a>   
         </div>
         <div class="box-item">
             <a href="">
-                <img src="img/2.jpg.jpg" alt="">
+                <button onclick="runPopup()">
+                <img src="img/5.jpg" alt="">
+                </button>
+                <script>  
+                function runPopup(){
+                var respond = prompt("Masukkan alamat pengiriman");
+                if(respond != "")
+                {
+                    window.alert(" paket segera dikirim ke alamat " + respond + "!");
+                }
+                else
+                {
+                    window.alert("masukkan kembaii alamat pengiriman");
+                }
+                };
+                </script>
                 <h1>Bucket bunga</h1>
                 <p>150.000</p>
             </a>   

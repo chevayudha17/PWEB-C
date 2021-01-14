@@ -61,3 +61,15 @@ li a:hover {
 .review .gambar img{
   width: 120px;
 }
+@media only screen and (max-width: 1024px)
+{
+  .review{
+    width : 75%;
+  }
+}
+@media only screen and (max-width: 720px)
+{
+  .review{
+    width : 98%;
+  }
+}
